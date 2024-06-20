@@ -1,0 +1,98 @@
+header {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(82, 5, 153);
+  padding: 10px;
+}
+
+navbar {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  padding-right: 10px;
+}
+
+.logo {
+  width: 50%;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+section {
+  padding: 20px;
+  background-color: #101629;
+  height: 100%;
+  color: #e5e6e8;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img-game {
+  width: 70%;
+  border-radius: 10px;
+}
+
+p {
+  margin: 5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.games-da-casa {
+  flex-direction: column;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.centrado {
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.content-invite {
+  margin: 20px;
+}
+.btn-success {
+  width: 60%;
+  margin: 10px;
+}
+
+footer {
+  padding: 15px;
+  background-color: rgb(82, 5, 153);
+  color: aliceblue;
+}
+
+@media (max-width: 510px) {
+  .logo {
+    margin-top: 2px;
+    width: 110%;
+    height: 90%;
+  }
+  .btn-group .btn {
+    font-size: 10.5px;
+    margin: 2px;
+  }
+}
+.custom-link {
+  color: inherit;
+  text-decoration: none;
+}
+
+.custom-link:hover {
+  color: #31a2be;
+  text-decoration: underline;
+}
+#textAling {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
